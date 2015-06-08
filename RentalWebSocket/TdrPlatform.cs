@@ -63,8 +63,7 @@ namespace RentalWebSocket
         /// <param name="sender">The sender.</param>
         /// <param name="e">The e.</param>
         private void conn_ReplySendedCommandStandardResult(object sender,Tendency.ConnToTDR.TendencyConnection.CDeviceStandardDataReceivedArgs e)
-        {
-            //Log.Debug(e.CDeviceStandardData.ToString());
+        {           
             try
             {
                 ProtocolDataList Datas = new ProtocolDataList();
