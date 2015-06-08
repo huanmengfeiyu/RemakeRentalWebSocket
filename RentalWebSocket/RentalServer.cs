@@ -24,8 +24,8 @@ namespace RentalWebSocket
             Task task = new Task(ReplyClients);//回复客户端
             Task task1 = new Task(BangDevices);//绑定设备下发
             Task task2 = new Task(BangYYKs);//绑定有源卡
-            task.Start();
-            task1.Start();
+            //task.Start();
+            //task1.Start();
             //task2.Start();
         }
 
