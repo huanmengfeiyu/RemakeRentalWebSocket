@@ -72,7 +72,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Command\ArmStatusUpload.cs" />
     <Compile Include="Command\ManuallyArm.cs" />
     <Compile Include="Command\SwitchRelay_V2.cs" />
     <Compile Include="Device.cs" />
